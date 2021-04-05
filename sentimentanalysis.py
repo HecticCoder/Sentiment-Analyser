@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title('SENTIMENT ANALYSER')
 
-df = pd.read_excel('/content/IMDB-Movie-Reviews-Large-Dataset-50k/train.xlsx')
+df = pd.read_excel('https://github.com/HecticCoder/Sentiment-Analyser/blob/main/Sentiment%20Analysis%20Data.xlsx')
 
 x = df.iloc[:,1].values
 y = df.iloc[:,0].values
