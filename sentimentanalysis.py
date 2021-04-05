@@ -10,8 +10,8 @@ y = df.iloc[:,0].values
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 tfidf = TfidfVectorizer(max_features=5000)
-x = df['Reviews'].astype('U').values
-y = df['Sentiment']
+x = df['text'].astype('U').values
+y = df['label']
 x = tfidf.fit_transform(x)
 
 from sklearn.model_selection import train_test_split
