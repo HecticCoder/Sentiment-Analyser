@@ -36,8 +36,3 @@ else:
 
 if st.button('Predict'):
   st.title(op)
-   
-     
- 
-
-
