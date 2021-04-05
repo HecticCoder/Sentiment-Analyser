@@ -27,7 +27,7 @@ select.replace('[^\w\s]', '')
 vect = tfidf.transform([select])
 op = clf.predict(vect)
 
-if op == ['pos']:
+if op == 1:
   op = 'Positive'
 
 else:
