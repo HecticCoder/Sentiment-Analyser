@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title('SENTIMENT ANALYSER')
 
-df = pd.read_excel('https://github.com/HecticCoder/Sentiment-Analyser/blob/main/train.xlsx')
+df = pd.read_csv('https://raw.githubusercontent.com/HecticCoder/Sentiment-Analyser/main/Test.csv')
 
 x = df.iloc[:,1].values
 y = df.iloc[:,0].values
