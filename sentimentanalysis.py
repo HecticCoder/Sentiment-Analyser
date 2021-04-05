@@ -33,6 +33,14 @@ if op == ['pos']:
 
 else:
   op = 'Negative'
+  
+  
+  
+  
+  
+  
+  
+  
 
 if st.button('Predict'):
   st.title(op)
