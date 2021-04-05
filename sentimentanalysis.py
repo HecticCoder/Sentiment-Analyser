@@ -1,4 +1,3 @@
-pip install xlrd>=1.0.0
 import pandas as pd
 import streamlit as st
 
@@ -33,14 +32,6 @@ if op == ['pos']:
 
 else:
   op = 'Negative'
-  
-  
-  
-  
-  
-  
-  
-  
 
 if st.button('Predict'):
   st.title(op)
