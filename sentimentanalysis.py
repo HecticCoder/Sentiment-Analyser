@@ -1,7 +1,5 @@
-pip install xlrd
 import pandas as pd
 import streamlit as st
-
 
 st.title('SENTIMENT ANALYSER')
 
